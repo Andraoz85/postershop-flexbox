@@ -4,8 +4,98 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Poster Shop Checkout</title>
+  <link rel="stylesheet" href="checkout.css">
 </head>
 <body>
+<div class="container">
+    <header>
+    <img src="assets/navicon.svg" alt="" class="navicon">
+    <h1>Checkout</h1>
+    <img src="assets/ninjahead.svg" alt="" class="ninjahead">
+  </header>
+  <main>
+    <section class="checkout-section">
+      <h2>Varor i korg</h2>
+      <div class="cart-items">
+        <!-- Poster 1 -->
+        <div class="cart-item">
+          <img src="assets/char-7.png" alt="Photographer" class="cart-item-image">
+          <div class="cart-details">
+            <h3>Fotograf</h3>
+            <button>Ta bort från varukorg</button>
+          </div>
+        </div>
+        <!-- Poster 2 -->
+        <div class="cart-item">
+          <img src="assets/char-9.png" alt="Personal Trainer" class="cart-item-image">
+          <div class="cart-details">
+            <h3>Personlig Tränare</h3>
+            <button>Ta bort från varukorg</button>
+          </div>
+        </div>
+      </div>
+      <table class="cart-summary">
+        <tr>
+          <th>Vara</th>
+          <th>Antal</th>
+          <th>Pris</th>
+        </tr>
+        <tr>
+          <td>Poster Fotograf</td>
+          <td>1</td>
+          <td>179 sek</td>
+        </tr>
+        <tr>
+          <td>Poster Crossfit</td>
+          <td>1</td>
+          <td>179 sek</td>
+        </tr>
+        <tr class="cart-total">
+          <td>Totalt</td>
+          <td></td>
+          <td>358 sek</td>
+        </tr>
+      </table>
+      <button class="checkout-btn">Gimmie gimmie gimmie!</button>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <section class="footer-nav">
+        <h3>Nav</h3>
+        <ul>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </section>
+      
+      <section class="footer-address">
+        <h3>Address</h3>
+        <p>Plinkeplonkvägen 32</p>
+        <p>888 81 Klonkberga</p>
+      </section>
+      
+      <section class="footer-social">
+        <h3>Social</h3>
+        <ul>
+          <li>
+            <a href="#"><img src="assets/logo-twitter.svg" alt="Twitter" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/logo-facebook.svg" alt="Facebook" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/logo-linkedin.svg" alt="LinkedIn" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/logo-instagram.svg" alt="Instagram" /></a>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </footer>
+</div>
   
 </body>
 </html>
